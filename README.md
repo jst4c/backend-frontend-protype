@@ -4,36 +4,6 @@ Proyecto fullstack con **backend en Express + TypeScript** y **frontend en React
 
 ## 📁 Estructura del proyecto
 
-```
-proyecto backend + frontend/
-├── backend/               # API REST con Express y TypeScript
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/   # Lógica de negocio (usuarios, tareas, auth)
-│   │   ├── middlewares/    # Middlewares (logger, auth)
-│   │   ├── routes/        # Definición de rutas (usuarios, tareas)
-│   │   └── index.ts       # Punto de entrada del servidor
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── frontend/              # Cliente web con React + Vite
-│   ├── src/
-│   │   ├── assets/        # Imágenes y recursos estáticos
-│   │   ├── components/    # Componentes React (RegisterUser, AddTarea, ListaTareas, ItemsRender)
-│   │   ├── mocks/         # Configuración de API URL
-│   │   ├── models/        # Lógica de peticiones (getTask)
-│   │   ├── types/         # Tipos TypeScript (user, task)
-│   │   ├── App.tsx        # Componente principal
-│   │   ├── main.tsx       # Punto de entrada
-│   │   └── index.css      # Estilos globales
-│   ├── index.html
-│   ├── vite.config.ts
-│   ├── tailwind.config.js
-│   └── package.json
-│
-├── .gitignore
-└── README.md
-```
 
 ## 🚀 Tecnologías
 
